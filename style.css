@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: sticky;
+    top: 0%; */
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 90%;
+    /* border: 2px solid black; */
+    /* border-radius: 50px; */
+    display: left;
+}
+.nav-list{
+    width: 39%;
+    /* margin-right: 14px; */
+    font-size: 18px;
+     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.nav-list li{
+    padding: 18px 29px;
+    list-style: none;
+    text-decoration-style: none;
+}
+.nav-list li a{
+    color: rgb(233, 222, 222);
+    text-decoration : none;
+    list-style: none;
+}
+.nav-list li a:hover{
+    color: darkorange;
+    cursor: pointer;
+}
+.right-navbar{
+    width: 97%;
+    text-align: right;
+    margin: -37px 11px;
+}
+.right-navbar input{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn-btn-sm{
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: thistle;
+}
+.navbarbackground{
+    background: rgba(0,0,0,0.7)url("sunset-g54cbc30ec_1920.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 110vh;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -254px; */
+}
+.thumbnail img{
+    width: 89%;
+    padding: 51px 2px;
+    /* border: 2px solid black; */
+}
+.firstpara{
+    padding: 33px 37px;
+}
+.big-text{
+    font-size: 30px;
+}
+.small-text{
+    font-size: 20px;
+}
+.main2-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.mains-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -347px;
+}
+.firstparas{
+    padding: 41px 90px;
+    margin-top: -163px;
+    color: white;
+    text-align: center;
+}
+    
+.glasses img{
+    width: 19%;
+    padding: 62px 569px;
+}
+.contact{
+    background-color: rgb(182 159 176);
+    height: 100vh;
+}
+.text-center{
+  text-align: center;
+}
+.form-input{
+    width: 100%;
+    margin: 12px 2px;
+    border-radius: 8px;
+    padding: 5px 3px;
+    border: 2px solid black;
+}
+.form{
+   margin: auto;
+   max-width: 431px;
+}
+.button{
+    margin: 1px 6px;
+    border-radius: 12px;
+    padding: 3px 16px;
+    background-color: darkseagreen;
+}
+.footer-center{
+    background-color: black;
+    color: aliceblue;
+}
+@media  screen and (max-width:1440) {
+    .nav-list{
+        width: 10%;
+        flex-direction: column;
+    }
+}

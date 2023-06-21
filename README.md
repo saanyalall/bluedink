@@ -1,1 +1,1 @@
-# bluedink
+https://saanyalall.github.io/bluedink/

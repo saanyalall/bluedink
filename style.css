@@ -93,7 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-/*     margin-top: -347px; */
+    /* margin-top: -347px; */
 }
 .firstparas{
     padding: 41px 90px;
@@ -102,10 +102,10 @@
     text-align: center;
 }
     
-/* .glasses img{
+.glasses img{
     width: 19%;
     padding: 62px 569px;
-} */
+}
 .contact{
     background-color: rgb(182 159 176);
     height: 100vh;
